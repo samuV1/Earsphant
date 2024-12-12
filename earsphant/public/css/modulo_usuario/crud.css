@@ -1,0 +1,125 @@
+/*Tamanho a área do conteúdo*/
+main {
+    height: 83vh;
+    width: 100vw;
+}
+
+/**/
+.elemento_pai {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+}
+
+form{
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-around;;
+}
+
+#botao_adicionar{
+    font-size: 1em;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    width: 15vw;
+    height: 5.5vh;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #2C4459;
+    border-color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+}
+
+#botao_adicionar:focus, #botao_adicionar:hover{
+    font-size: 1.1em;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    width: 16.5vw;
+    height: 7vh;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #2C4459;
+    border-color: #000000;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 3px 3px 3px 3px;
+}
+
+#botao_adicionar:active{
+    font-size: 1.1em;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    width: 16.5vw;
+    height: 7vh;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    color: #2C4459;
+    font-weight: bold;
+    background-color: #ffffff;
+    border-color: #2C4459;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 3px 3px 3px 3px;
+}
+
+#botao_limpar{
+    font-size: 1em;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    width: 15vw;
+    height: 5.5vh;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #d13833;
+    border-color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+}
+
+#botao_limpar:focus, #botao_limpar:hover{
+    font-size: 1.1em;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    width: 16.5vw;
+    height: 7vh;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #d13833;
+    border-color: #000000;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 3px 3px 3px 3px;
+}
+
+#botao_limpar:active{
+    font-size: 1.1em;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    width: 16.5vw;
+    height: 7vh;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    color: #d13833;
+    font-weight: bold;
+    background-color: #ffffff;
+    border-color: #d13833;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 3px 3px 3px 3px;
+}

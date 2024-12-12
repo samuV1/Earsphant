@@ -1,0 +1,112 @@
+body{
+    background-image: url('/imagens/fundo_login.jpg');
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;    /* Centraliza verticalmente */
+    height: 100vh;          /* Altura total da tela */
+}
+
+.elemento_pai{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+}
+
+main{
+    width: 35%;
+    height: 80vh;
+    border-radius: 5% 5% 5% 5%;
+    background-color: #FDFEFE;
+}
+
+input{
+    height: 6vh;
+    width: 25vw;
+    border-color: #232323;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px 3px 3px 3px;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+label{
+    font-family: "Montserrat", Helvetica, sans-serif;
+    font-weight: 400;
+    color: #232323;
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+#dropdown_type_agent{
+    height: 6vh;
+    width: 25vw;
+    border-radius: 3px 3px 3px 3px;
+    background: #EBEBEB;
+    color: #232323;
+    border-color: #232323;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px 4px 4px 4px;
+    font-weight: 400;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+#botao_unico_acesso{
+    height: 7vh;
+    width: 20vw;
+    padding: 0px 10px 0px 10px;
+    background: #FD5C3F;
+    color: #FFFFFF;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px 3px 3px 3px;
+    font-family: "Helvetica";
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+#botao_unico_acesso:hover, #botao_unico_acesso:focus{
+    height: 7vh;
+    width: 20vw;
+    padding: 0px 10px 0px 10px;
+    background: #FD674B;
+    color: #FFFFFF;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px 3px 3px 3px;
+    font-family: "Helvetica";
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 10vh;
+
+}
+
+#botao_unico_acesso:active{
+    height: 7vh;
+    width: 20vw;
+    padding: 0px 10px 0px 10px;
+    background: #FFFFFF;
+    color: #FD5C3F;
+    border-color: #FD5C3F;;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 3px 3px 3px 3px;
+    font-family: "Helvetica";
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 10vh;
+}
+

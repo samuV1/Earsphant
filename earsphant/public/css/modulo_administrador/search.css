@@ -1,0 +1,14 @@
+main {
+    height: 83vh;
+    width: 100vw;
+}
+
+table{
+
+    border: 1px solid #000000;
+}
+
+tr, th, td{
+    border: 1px solid #000000;
+    margin: 10px;
+}

@@ -1,0 +1,173 @@
+.elemento_pai {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+}
+
+div {
+    display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+main {
+    height: 83vh;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+    align-items: center;
+    align-content: center;
+}
+
+#botao_adiciona_nota{
+    font-size: 1em;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    width: 6vw;
+    height: 7vh;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #2C4459;
+    border-color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+}
+
+#botao_adiciona_nota:focus, #botao_adiciona_nota:hover{
+    font-size: 1.1em;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    width: 7vw;
+    height: 7vh;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #2C4459;
+    border-color: #000000;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 3px 3px 3px 3px;
+}
+
+#botao_adiciona_nota:active{
+    font-size: 1.1em;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    width: 7vw;
+    height: 7vh;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    color: #2C4459;
+    font-weight: bold;
+    background-color: #ffffff;
+    border-color: #2C4459;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 3px 3px 3px 3px;
+}
+
+#botao_limpar{
+    font-size: 1em;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    width: 6vw;
+    height: 7vh;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #d13833;
+    border-color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+}
+
+#botao_limpar:focus, #botao_limpar:hover{
+    font-size: 1.1em;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    width: 7vw;
+    height: 7vh;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #d13833;
+    border-color: #000000;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 3px 3px 3px 3px;
+}
+
+#botao_limpar:active{
+    font-size: 1.1em;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    width: 7vw;
+    height: 7vh;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    color: #d13833;
+    font-weight: bold;
+    background-color: #ffffff;
+    border-color: #d13833;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.botao_paginacao {
+    display: inline-block; /* Faz a âncora comportar-se como um botão */
+    padding: 6px 12px; /* Tamanho pequeno do botão */
+    background-color: #25306e; /* Cor de fundo verde */
+    font-family: Arial, Helvetica, sans-serif;
+    color: white; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    text-decoration: none; /* Remove o sublinhado padrão da âncora */
+    border-radius: 4px; /* Bordas arredondadas */
+    font-size: 14px; /* Tamanho de fonte pequeno */
+    transition: background-color 0.3s ease; /* Transição suave na cor de fundo */
+    margin-top: 1vh;
+}
+  
+  /* Efeito de hover */
+.botao_paginacao:hover {
+    background-color: #758ae4; /* Cor de fundo quando o mouse passa por cima */
+}
+
+.etiqueta{
+    text-align: center;
+    margin-top: 1vh;
+    margin-bottom: 0.4vh ;
+}
+
+.notas{
+    height: 10vh;
+    width: 20vw;
+}
+
+.nota-item{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: 8vw;
+}
+
+select{
+    width: 8vw;
+}
+
+
+
