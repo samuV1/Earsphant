@@ -16,7 +16,7 @@ class HistoricoController extends Controller
 
         // Busca os atendimentos do usuário com status "Finalizado"
         $atendimentos = Atendimento::where('usuario', $loginUsuario)
-                                   ->where('status', 'Finalizado')
+                                   ->where('fechamento', "!=", null)
                                    ->get();
 
         return view('usuario.historico', compact('atendimentos'));
@@ -29,7 +29,7 @@ class HistoricoController extends Controller
 
         // Busca os atendimentos do usuário com status "Finalizado"
         $atendimentos = Atendimento::where('usuario', $loginUsuario)
-                                   ->where('status', "!=" , 'Finalizado')
+                                   ->where('fechamento', "=" , null)
                                    ->get();
 
         return view('usuario.atendimentosAbertos', compact('atendimentos'));
